@@ -1,0 +1,2 @@
+C:\Users\MADHUR\source\repos\EVPOC\evpoc.client\obj\Debug\evpoc.client.esproj.CoreCompileInputs.cache
+C:\Users\MADHUR\OneDrive\Documents\GitHub\EVPOC\evpoc.client\obj\Debug\evpoc.client.esproj.CoreCompileInputs.cache

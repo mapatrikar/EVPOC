@@ -1,0 +1,43 @@
+/* Basic styling for the banner */
+.banner {
+    background: linear-gradient(white, white, #32cd32); /* Blue and green combination */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px;
+    width:90%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.charger-name {
+   /* font-size: 1.5em;
+    margin-bottom: 10px;*/
+}
+
+.circle {
+    /*width: 100px;
+    height: 100px;
+    background-color: #a5d6a7;*/ /* Light green */
+    /*border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+.kms {
+    font-size: 1.2em;
+    color: #004d40; /* Dark teal */
+    display:none;
+ }
+
+.battery-status {
+    background-color: #32cd32; /* Blue */
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 100px;
+    display:none;
+}

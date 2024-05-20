@@ -1,0 +1,34 @@
+body {
+    /* Basic styling for the search box */
+    .search-box
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.search-box input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #004d40; /* Dark green */
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+    .search-box button:hover {
+        background-color: #3c8d40; /* Slightly lighter green on hover */
+    }
+
+}

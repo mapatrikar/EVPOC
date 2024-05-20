@@ -1,0 +1,23 @@
+.icon-container {
+    background-color: #333; /* Dark grey background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px; /* Space between rows */
+}
+
+.icon {
+    color: #1e88e5; /* Blue icon color */
+    font-size: 2rem; /* Icon size */
+}
+
+.icon-row:last-child {
+    margin-bottom: 0; /* Remove margin from the last row */
+}

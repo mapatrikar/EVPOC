@@ -1,0 +1,76 @@
+/* Basic styling for the menubar */
+.menubar {
+    position:page;
+    top: 0;
+    width: 98%;
+    background-color: #32cd32;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+    .menubar .logo {
+        font-size: 1.5em;       
+     
+
+    }
+
+    .menubar .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+        color:white;
+    }
+
+
+        .menubar .menu .nav .ul .li {
+            cursor: pointer;
+          
+            font-weight:500;
+            display:inline;
+        }
+        
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .menubar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .menubar .menu {
+            flex-direction: column;
+            width: 100%;
+            display: none;
+        }
+
+            .menubar .menu li {
+                padding: 10px 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            .menubar .menu.show {
+                display: flex;
+            }
+}
+
+/* Hamburger menu styling */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+}
